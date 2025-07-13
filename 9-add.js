@@ -14,7 +14,7 @@ const integer2 = parseInt(num2Arg, 10);
 // If either is NaN (Not-a-Number), it means the input was invalid.
 if (isNaN(integer1) || isNaN(integer2)) {
     console.log("NaN");
-    console.log("");
+    // console.log("");
 } else {
     // If both are valid integers, call the 'add' function and print the result.
     let sum = add(integer1, integer2);
